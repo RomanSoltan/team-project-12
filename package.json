@@ -1,11 +1,11 @@
 {
-  "name": "project-test",
+  "name": "team-project-12",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-test/",
+    "build": "vite build --base=/team-project-12/",
     "preview": "vite preview"
   },
   "devDependencies": {
@@ -14,7 +14,7 @@
     "postcss-sort-media-queries": "^5.2.0",
     "vite": "^5.4.2"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "team project group 12",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.2.0",
