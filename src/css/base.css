@@ -24,14 +24,37 @@ body {
   color: #3350e9;
 }
 
+/* Styles for mobile devices */
 .section {
-  padding: 50px 0;
+  padding: 30px 0;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .section {
+    padding: 50px 0;
+  }
 }
 
+/* Styles for mobile devices */
 .section-title {
   font-weight: 600;
-  font-size: 48px;
-  line-height: 0.92;
+  font-size: 32px;
+  line-height: 1;
   letter-spacing: -0.02em;
-  margin-bottom: 40px;
+  color: #0c0c0c;
+  margin-bottom: 24px;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .section-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+  }
 }
