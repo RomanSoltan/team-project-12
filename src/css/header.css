@@ -1,0 +1,58 @@
+/* Styles for Mobile devices */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 211px;
+}
+
+.header-nav,
+.social-header {
+  display: none;
+}
+
+.logo-header {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  display: block;
+  padding: 28px 0;
+}
+.icon-burger-btn {
+  stroke: #0c0c0c;
+  fill: none;
+}
+
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .logo-header {
+    padding: 34px 0;
+    font-size: 20px;
+  }
+  .header-container {
+    gap: 552px;
+  }
+}
+/* Styles for Desktop devices */
+@media screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+  .header-nav,
+  .social-header {
+    display: flex;
+  }
+
+  .header-container {
+    gap: 203px;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+  .logo-header {
+    padding: 32px 0;
+  }
+}
