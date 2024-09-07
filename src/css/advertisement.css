@@ -2,9 +2,10 @@
   margin: 30px 0;
 }
 
-.advertisement-container {
+.advertisement-inner {
   border-radius: 30px;
   padding: 60px 28px;
+  background-color: #0c0c0c;
   background-image: url(../img/advertisement/mob/advert-mob-image-bg-@1x.png),
     linear-gradient(to bottom, #0c0c0c, #0c0c0c);
   background-repeat: no-repeat;
@@ -15,7 +16,7 @@
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
-  .advertisement-container {
+  .advertisement-inner {
     background-image: url(../img/advertisement/mob/advert-mob-image-bg-@2x.png),
       linear-gradient(to bottom, #0c0c0c, #0c0c0c);
   }
@@ -64,7 +65,7 @@
     margin: 40px 0;
   }
 
-  .advertisement-container {
+  .advertisement-inner {
     padding: 80px 64px;
     background-image: url(../img/advertisement/tab/advert-tab-image-bg-@1x.png),
       linear-gradient(to bottom, #0c0c0c, #0c0c0c);
@@ -73,7 +74,7 @@
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    .advertisement-container {
+    .advertisement-inner {
       background-image: url(../img/advertisement/tab/advert-tab-image-bg-@2x.png),
         linear-gradient(to bottom, #0c0c0c, #0c0c0c);
     }
@@ -95,7 +96,7 @@
     margin: 50px 0;
   }
 
-  .advertisement-container {
+  .advertisement-inner {
     padding: 83px 80px;
     background-image: url(../img/advertisement/desk/advert-desk-image-bg-@1x.png),
       linear-gradient(to bottom, #0c0c0c, #0c0c0c);
@@ -104,7 +105,7 @@
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
-    .advertisement-container {
+    .advertisement-inner {
       background-image: url(../img/advertisement/desk/advert-desk-image-bg-@2x.png),
         linear-gradient(to bottom, #0c0c0c, #0c0c0c);
     }
