@@ -16,8 +16,7 @@
   }
 }
 
-/* .reviews-container {
-  } */
+
 .reviews-list {
   min-width: 335px;
   display: flex;
@@ -39,7 +38,7 @@
 .reviews-img {
   border-radius: 100%;
   border-color: transparent;
-  border: 2px;
+  border: 2px solid transparent;
   margin-bottom: 24px;
 }
 
@@ -95,12 +94,5 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
-  flex-wrap: wrap;
-  /* display: flex; */
-}
-
-@media screen and (min-width: 768px) {
-}
-
-@media screen and (min-width: 1280px) {
+  
 }
