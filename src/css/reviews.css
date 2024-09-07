@@ -22,13 +22,11 @@
   min-width: 335px;
   display: flex;
   justify-content: center;
- 
-gap: 16px;
-  
+  gap: 16px;
 }
 
 .reviews-item {
-    border-radius: 30px;
+  border-radius: 30px;
   padding: 32px 36px;
   min-width: 263px;
   display: flex;
@@ -61,11 +59,10 @@ gap: 16px;
 }
 
 @media screen and (min-width: 1280px) {
-    .reviews-item-desk {
-        display: flex;
-    }
+  .reviews-item-desk {
+    display: flex;
+  }
 }
-
 
 .reviews-con {
   display: flex;
