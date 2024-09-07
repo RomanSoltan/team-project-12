@@ -13,6 +13,7 @@
     <symbol id="icon-menu" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M4 11.333h24M4 20.667h24"/>
     </symbol>
+    
     <symbol id="icon-close" viewBox="0 0 32 32">
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="M24 8 8 24"/>
       <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.3529" d="m8 8 16 16"/>
