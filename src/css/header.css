@@ -1,0 +1,117 @@
+/* Styles for Mobile devices */
+.header {
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+  /* box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08); */
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav,
+.social-header-list {
+  display: none;
+}
+
+.logo-header {
+  font-weight: 500;
+  color: #0c0c0c;
+  display: block;
+  padding: 28px 0;
+}
+.icon-burger-btn {
+  stroke: #0c0c0c;
+}
+.burger-btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  max-height: 34px;
+}
+
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .logo-header {
+    padding: 34px 0;
+    font-size: 20px;
+  }
+
+  .burger-btn {
+    max-height: 40px;
+  }
+  .icon-burger-btn {
+    width: 40px;
+    height: 40px;
+  }
+}
+/* Styles for Desktop devices */
+@media screen and (min-width: 1280px) {
+  .burger-btn {
+    display: none;
+  }
+  .header-nav,
+  .social-header {
+    display: flex;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 40px;
+    height: 28px;
+  }
+  .logo-header {
+    padding: 32px 0;
+  }
+  .nav-item-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #0c0c0c;
+    /* padding: 30px 0; */
+    display: block;
+  }
+  .nav-item-link {
+    position: relative;
+  }
+  .nav-item-link:hover::after,
+  .nav-item-link.current::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    background-color: #3350e9;
+    border-radius: 100%;
+  }
+  .social-header-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .social-header-link {
+    display: block;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    padding: 8px;
+    width: 36px;
+    height: 36px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-social-icon {
+    fill: #0c0c0c;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .social-header-item:hover,
+  .social-header-item:focus {
+    border-color: rgba(51, 80, 233, 0.1);
+  }
+  .header-social-icon:hover,
+  .social-header-item:focus {
+    fill: #3350e9;
+  }
+}
