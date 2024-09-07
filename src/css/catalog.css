@@ -1,0 +1,13 @@
+.catalog-title {
+    font-weight: 600;
+        font-size: 32px;
+        line-height: 1;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+}
+
+.catalog-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
