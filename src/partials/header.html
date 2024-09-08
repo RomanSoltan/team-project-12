@@ -58,22 +58,22 @@
         </li>
       </ul>
 
-      <button class="burger-btn" type="button">
+      <button class="burger-btn" type="button" data-menu-open>
         <svg class="icon-burger-btn" width="34" height="34">
           <use href="./img/icons.svg#icon-menu"></use>
         </svg>
       </button>
     </div>
   </div>
-  <div class="mobile-menu is-open">
+  <div class="mobile-menu" data-menu>
     <div class="container mobile-menu-container">
       <!-- btn-close -->
-      <button class="menu-close-btn" type="button">
+      <button class="menu-close-btn" type="button" data-menu-close>
         <svg class="close-icon" width="34" height="34">
           <use href="./img/icons.svg#icon-close"></use>
         </svg>
       </button>
-      <nav class="header-nav">
+      <nav class="nav-menu">
         <ul class="nav-list nav-mob-menu">
           <li class="nav-item">
             <a href="./index.html" class="nav-item-link current">Home</a>
@@ -95,7 +95,7 @@
           </li>
         </ul>
       </nav>
-      <ul class="social-header-list">
+      <ul class="menu-social-list social-header-list">
         <li class="social-header-item">
           <a
             href="https://www.facebook.com/goITclub/"
@@ -130,3 +130,17 @@
     </div>
   </div>
 </header>
+<script>
+  alert('menu')(() => {
+    const refs = {
+      openModalBtn: document.querySelector('[data-menu-open]'),
+      closeModalBtn: document.querySelector('[data-menu-close]'),
+      modal: document.querySelector('[data-menu]'),
+    };
+    refs.openModalBtn.addEventListener('click', toggleModal);
+    refs.closeModalBtn.addEventListener('click', toggleModal);
+    function toggleModal() {
+      refs.modal.classList.toggle('is-open');
+    }
+  })();
+</script>
