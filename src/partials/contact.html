@@ -1,5 +1,4 @@
-<section  class="contact-section section" id="contact-section">
-
+<section class="contact-section section" id="contact-section">
   <div class="container">
     <h2 class="section-title">Contact Us</h2>
     <div class="wrapper">
@@ -22,76 +21,73 @@
               />
             </label>
             <label class="contact-label" for="user-email">
-               <input
-                 class="cont-input"
-                 type="email"
-                 id="user-email"
-                 name="user-email"
-                 placeholder="Email"
-                 required
-               />
-             </label>
+              <input
+                class="cont-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                placeholder="Email"
+                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                required
+              />
+            </label>
 
             <label class="contact-label" for="user-phone">
-                <input
-                  class="cont-input"
-                  type="tel"
-                  id="user-phone"
-                  name="user-phone"
-                  placeholder="+380"
-                  required
-                />
+              <input
+                class="cont-input"
+                type="tel"
+                id="user-phone"
+                name="user-phone"
+                placeholder="+380"
+                pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+                required
+              />
             </label>
-             <label class="contact-label" for="user-comment">
-                 <textarea
-                   class="cont-textarea"
-                   id="user-comment"
-                   name="user-comment"
-                   placeholder="Comment"
-                 ></textarea>
+            <label class="contact-label" for="user-comment">
+              <textarea
+                class="cont-textarea"
+                id="user-comment"
+                name="user-comment"
+                placeholder="Comment"
+              ></textarea>
             </label>
-             <button class="contact-submit" type="submit">Send</button>
+            <button class="contact-submit" type="submit">Send</button>
           </form>
-
-         
         </div>
-         </div>
-        
-             <picture>
-                  <source
-                    srcset="
-                      /img/contact-us/desk//contact-desk-rectangle-11-@1x.jpg   1x,
-                      /img/contact-us/desk//contact-desk-rectangle-11-@1x.jpg   2x
-                    "
-                    media="(min-width:
-                  1280px)"
-                  />
-                  <source
-                    srcset="
-                      /img/contact-us/tab/contact-tabl-rectangle-11-@1x.jpg   1x,
-                      /img/contact-us/tab/contact-tabl-rectangle-11-@1x.jpg   2x
-                    "
-                    media="(min-width:
-                  768px)"
-                  />
-                  <source
-                    srcset="
-                      /img/contact-us/mob/contact-mob-rectangle-15-@1x.jpg 1x,
-                      /img/contact-us/mob/contact-mob-rectangle-15-@2x.jpg 2x
-                    "
-                    media="(max-width:
-                  767px)"
-                  />
-                  <img
-                  class="picture"
-                    src="/img/contact-us/mob/contact-mob-rectangle-15-@1x.jpg"
-                    alt="Watch"
-                    width="335"
-                    height="512"
-                  />
-                </picture>
-
       </div>
+      <picture>
+        <source
+          srcset="
+            /img/contact-us/desk//contact-desk-rectangle-11-@1x.jpg 1x,
+            /img/contact-us/desk//contact-desk-rectangle-11-@1x.jpg 2x
+          "
+          media="(min-width:
+                  1280px)"
+        />
+        <source
+          srcset="
+            /img/contact-us/tab/contact-tabl-rectangle-11-@1x.jpg 1x,
+            /img/contact-us/tab/contact-tabl-rectangle-11-@1x.jpg 2x
+          "
+          media="(min-width:
+                  768px)"
+        />
+        <source
+          srcset="
+            /img/contact-us/mob/contact-mob-rectangle-15-@1x.jpg 1x,
+            /img/contact-us/mob/contact-mob-rectangle-15-@2x.jpg 2x
+          "
+          media="(max-width:
+                  767px)"
+        />
+        <img
+          class="picture"
+          src="/img/contact-us/mob/contact-mob-rectangle-15-@1x.jpg"
+          alt="Watch"
+          width="335"
+          height="512"
+        />
+      </picture>
     </div>
   </div>
 </section>
