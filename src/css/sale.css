@@ -1,9 +1,6 @@
 /* #region Left Side */
 /*Mob devices */
 @media screen and (min-width: 375px) ,(max-width: 375px) {
-    /* .section {
-        padding: 30px 0;
-      } */
     .sale-section__wrapper {
         display: flex;
         align-items: center;
@@ -48,9 +45,6 @@
 }
 /*Tablet devices */
 @media screen and (min-width: 768px) {
-    /* .section {
-        padding: 40px 0;
-      } */
     .sale-section__wrapper {
         gap: 40px;
     }
@@ -77,9 +71,6 @@
   }
   /* Desktop devices */
   @media screen and (min-width: 1280px) {
-    /* .section {
-        padding: 50px 0;
-      } */
     .sale-section__watch-card {
         width: 580px;
     }
