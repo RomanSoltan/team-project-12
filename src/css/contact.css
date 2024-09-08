@@ -50,6 +50,9 @@
   border-radius: 12px;
   padding: 12px 226px 12px 14px;
 }
+.cont-input:focus {
+  border-color: #3350e9;
+}
 input::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -63,6 +66,9 @@ input::placeholder {
   padding: 12px 136px 54px 14px;
   width: 100%;
 }
+.cont-textarea:focus {
+  border-color: #3350e9;
+}
 textarea::placeholder {
   font-weight: 400;
   font-size: 14px;
@@ -70,12 +76,17 @@ textarea::placeholder {
   color: #0c0c0c;
 }
 .contact-submit {
+  border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 16px;
   padding: 12px 50px;
   width: 134px;
   height: 42px;
   background-color: #3350e9;
   color: #fbfbfb;
+}
+
+.contact-submit:focus {
+  background-color: #1f3cd4;
 }
 .picture {
   width: 100%;
@@ -112,9 +123,11 @@ textarea::placeholder {
     font-size: 16px;
     line-height: 1.25;
   }
+
   .cont-textarea {
     padding: 16px 315px 54px 16px;
   }
+
   textarea::placeholder {
     font-size: 16px;
     line-height: 1.25;
@@ -124,6 +137,7 @@ textarea::placeholder {
     width: 160px;
     height: 52px;
   }
+
   .picture {
     width: 100%;
     border-radius: 50px;
