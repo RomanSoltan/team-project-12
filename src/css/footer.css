@@ -37,7 +37,13 @@
 }
 
 .social-footer-icon {
-    fill: #fbfbfb;
+    fill: rgba(251, 251, 251, 0.85);
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.social-footer-link:hover .social-footer-icon {
+    fill: rgba(251, 251, 251);
 }
 
 .footer-tel {
