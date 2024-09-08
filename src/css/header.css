@@ -1,3 +1,4 @@
+/* #region Header  */
 /* Styles for Mobile devices */
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
@@ -116,6 +117,8 @@
     fill: #3350e9;
   }
 }
+/* #endregion Header */
+/* #region Mobile Menu */
 /* ----------  Menu for Mobile devices ------- */
 .mobile-menu {
   position: fixed;
@@ -246,3 +249,4 @@
     gap: 32px;
   }
 }
+/* #endregion Mobile Menu*/
