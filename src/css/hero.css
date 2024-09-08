@@ -1,5 +1,9 @@
+.hero-section {
+  margin-bottom: 30px;
+}
 .hero-container {
-  padding: 60px 20px 0;
+  padding-top: 60px;
+  padding-bottom: 0;
 }
 .hero-content {
   margin-bottom: 28px;
@@ -62,8 +66,11 @@
   border-radius: 30px;
 }
 @media screen and (min-width: 768px) {
+  .hero-section {
+    margin-bottom: 40px;
+  }
   .hero-container {
-    padding: 80px 32px 0;
+    padding-top: 80px;
   }
   .hero-content {
     display: flex;
@@ -103,9 +110,10 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero-container {
-    padding: 80px 65px 0;
+  .hero-section {
+    margin-bottom: 50px;
   }
+
   .hero-title {
     font-size: 72px;
     line-height: 0.88;
