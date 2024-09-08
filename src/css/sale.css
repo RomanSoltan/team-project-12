@@ -1,6 +1,5 @@
 /* #region Left Side */
 /*Mob devices */
-@media screen and (min-width: 375px) ,(max-width: 375px) {
     .sale-section__wrapper {
         display: flex;
         align-items: center;
@@ -42,7 +41,7 @@
         height: 385px;
         background-color: #f3f3f3;
     }
-}
+
 /*Tablet devices */
 @media screen and (min-width: 768px) {
     .sale-section__wrapper {
@@ -94,7 +93,7 @@
 
 
 /*Mob devices */
-@media screen and (min-width: 375px) ,(max-width: 375px) {
+
     .sale-section__watch-description {
         padding: 48px 28px;
         border-radius: 30px;
@@ -175,7 +174,7 @@
         line-height: 1.2;
         color: #fbfbfb;
     }
-}
+
  /*Tablet devices */
 @media screen and (min-width: 768px) {
     .sale-section__watch-description {
