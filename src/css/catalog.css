@@ -101,6 +101,12 @@ gap: 32px 16px;
      width: calc((100% - 32px)/2);
  } */
 
+.catalog-item-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+}
+
    .catalog-button {
     display: none;
    } 
@@ -116,6 +122,12 @@ gap: 32px 16px;
     /* .catalog-item-list {
         width: calc((100% - 24px)/3);
     } */
+
+.catalog-item-list-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1;
+}
 
     .catalog-button {
             display: none;
