@@ -1,6 +1,5 @@
-
 .reviews-list {
-  min-width: 335px;
+  min-width: 370px;
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -9,12 +8,23 @@
 .reviews-item {
   border-radius: 30px;
   padding: 32px 36px;
-  min-width: 263px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #f3f3f3;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-item {
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-item {
+    width: calc((100% - 40px) / 3);
+  }
 }
 
 .reviews-img {
@@ -76,5 +86,4 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
-  
 }
