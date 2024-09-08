@@ -1,8 +1,18 @@
 .reviews-list {
-  min-width: 370px;
   display: flex;
   justify-content: center;
-  gap: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-list {
+    gap: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-list {
+    gap: 20px;
+  }
 }
 
 .reviews-item {
@@ -41,7 +51,6 @@
 @media screen and (min-width: 768px) {
   .reviews-item-tab {
     display: flex;
-    width: 344px;
   }
 }
 
