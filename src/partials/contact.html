@@ -1,4 +1,4 @@
-<section class="contact-section" id="contact-section">Contact us</section>
+<section  class="contact-section section" id="contact-section">
 
   <div class="container">
     <h2 class="section-title">Contact Us</h2>
@@ -11,36 +11,45 @@
           </p>
 
           <form class="my-form">
-            <input
-              class="cont-input"
-              type="namt"
-              id="user-name"
-              name="user-name"
-              placeholder="Name"
-              required
-            />
-            <input
-              class="cont-input"
-              type="email"
-              id="user-email"
-              name="user-email"
-              placeholder="Email"
-              required
-            />
-            <input
-              class="cont-input"
-              type="tel"
-              id="user-phone"
-              name="user-phone"
-              placeholder="+380"
-              required
-            />
-            <textarea
-              class="cont-textarea"
-              id="user-comment"
-              name="user-comment"
-              placeholder="Coment"
-            ></textarea>
+            <label class="contact-label" for="user-name">
+              <input
+                class="cont-input"
+                type="name"
+                id="user-name"
+                name="user-name"
+                placeholder="Name"
+                required
+              />
+            </label>
+            <label class="contact-label" for="user-email">
+               <input
+                 class="cont-input"
+                 type="email"
+                 id="user-email"
+                 name="user-email"
+                 placeholder="Email"
+                 required
+               />
+             </label>
+
+            <label class="contact-label" for="user-phone">
+                <input
+                  class="cont-input"
+                  type="tel"
+                  id="user-phone"
+                  name="user-phone"
+                  placeholder="+380"
+                  required
+                />
+            </label>
+             <label class="contact-label" for="user-comment">
+                 <textarea
+                   class="cont-textarea"
+                   id="user-comment"
+                   name="user-comment"
+                   placeholder="Comment"
+                 ></textarea>
+            </label>
              <button class="contact-submit" type="submit">Send</button>
           </form>
 
