@@ -2,6 +2,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  padding-bottom: 60px;
 }
 
 .box-container {
@@ -38,7 +39,7 @@
   height: 42px;
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  padding: 12px 226px 12px 14px;
+  padding: 12px 14px;
 }
 .cont-input:focus {
   border-color: #3350e9;
@@ -53,7 +54,7 @@ input::placeholder {
 .cont-textarea {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 12px;
-  padding: 12px 136px 54px 14px;
+  padding: 12px 14px;
   width: 100%;
   outline: transparent;
   resize: none;
@@ -71,7 +72,7 @@ textarea::placeholder {
   border: 1px solid rgba(12, 12, 12, 0.15);
   border-radius: 16px;
   padding: 12px 50px;
-  width: 134px;
+  min-width: 134px;
   height: 42px;
   background-color: #3350e9;
   color: #fbfbfb;
@@ -86,6 +87,9 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 768px) {
+  .contact-section {
+    padding-bottom: 80px;
+  }
   .container {
     max-width: 768px;
   }
@@ -107,7 +111,7 @@ textarea::placeholder {
     line-height: 1.25;
   }
   .cont-input {
-    padding: 16px 398px 16px 18px;
+    padding: 16px 18px;
     height: 52px;
   }
   input::placeholder {
@@ -116,7 +120,7 @@ textarea::placeholder {
   }
 
   .cont-textarea {
-    padding: 16px 315px 54px 16px;
+    padding: 16px;
   }
 
   textarea::placeholder {
@@ -136,6 +140,9 @@ textarea::placeholder {
 }
 
 @media screen and (min-width: 1280px) {
+  .contact-section {
+    padding-bottom: 100px;
+  }
   .container {
     max-width: 1280px;
     margin: 0;
