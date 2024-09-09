@@ -1,0 +1,139 @@
+.hero-section {
+  margin-bottom: 30px;
+}
+.hero-container {
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+.hero-content {
+  margin-bottom: 28px;
+}
+.hero-description {
+  margin-bottom: 28px;
+}
+.hero-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.title-part {
+  color: #3350e9;
+}
+.hero-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+
+.hero-block {
+  display: flex;
+}
+
+.down-link {
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding-top: 26px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.down-link.current {
+  position: relative;
+}
+
+.down-link.current::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 100%;
+  height: 1px;
+  background-color: #0c0c0c;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-image {
+  border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    margin-bottom: 40px;
+  }
+  .hero-container {
+    padding-top: 80px;
+  }
+  .hero-content {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .hero-description {
+    margin: 0 auto 0 0;
+  }
+  .hero-title {
+    font-size: 70px;
+    line-height: 0.86;
+    letter-spacing: -0.02em;
+    width: 557px;
+  }
+  .hero-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 480px;
+  }
+  .hero-block {
+    display: block;
+  }
+
+  .hero-photo {
+    margin-bottom: 180px;
+  }
+  .down-link {
+    font-size: 20px;
+    line-height: 1;
+    margin-left: 34px;
+    padding: 0;
+  }
+
+  .hero-image {
+    border-radius: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-section {
+    margin-bottom: 50px;
+  }
+
+  .hero-title {
+    font-size: 72px;
+    line-height: 0.88;
+    width: 597px;
+  }
+  .hero-photo {
+    margin-bottom: 189px;
+  }
+  .down-link {
+    margin-left: 44px;
+    padding: 0;
+  }
+
+  .down-link.current:hover,
+  .down-link.current:focus {
+    color: #3350e9;
+  }
+
+  .current:hover::after,
+  .current:focus::after {
+    background-color: #3350e9;
+  }
+}
