@@ -67,8 +67,9 @@
 .reviews-con {
   display: flex;
   flex-direction: column;
-  width: 263px;
+  max-width: 263px;
 }
+
 .reviews-name {
   font-family: 'Gilroy', sans-serif;
   font-weight: 500;
