@@ -2,15 +2,12 @@
 /*Mob devices */
 .sale-section__wrapper {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
 
 .sale-section__watch-card {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -29,8 +26,6 @@
     padding: 13px 14px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 20px;
-    width: 80px;
-    height: 80px;
     background-color: #f3f3f3;
 }
 
@@ -41,20 +36,26 @@
     padding: 50px;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 50px;
-    width: 335px;
-    height: 385px;
+    /* width: 100%; */
     background-color: #f3f3f3;
 }
 
 /*Tablet devices */
 @media screen and (min-width: 768px) {
+    .small-photos__bg {
+        padding: 16px 18px;
+    }
+
+    .watch-card__big-bg {
+        padding: 80px 112px;
+    }
+
     .sale-section__wrapper {
         gap: 40px;
     }
 
     .sale-section__watch-card {
-        width: 704px;
-        height: 558px;
+        width: 100%;
         flex-wrap: nowrap;
         gap: 20px;
     }
@@ -63,36 +64,20 @@
         flex-direction: column;
         gap: 10px;
     }
-
-    .small-photos__bg {
-        width: 132px;
-        height: 132px;
-    }
-
-    .watch-card__big-bg {
-        width: 552px;
-        height: 558px;
-    }
 }
 
 /* Desktop devices */
 @media screen and (min-width: 1280px) {
-    .sale-section__watch-card {
-        width: 580px;
-    }
-
     .sale-section__wrapper {
         flex-wrap: nowrap;
     }
 
     .small-photos__bg {
-        width: 132px;
-        height: 132px;
+        padding: 16px 18px;
     }
 
     .watch-card__big-bg {
-        width: 428px;
-        height: 558px;
+        padding: 80px 50px;
     }
 
 }
@@ -107,8 +92,7 @@
 .sale-section__watch-description {
     padding: 48px 28px;
     border-radius: 30px;
-    width: 335px;
-    height: 561px;
+    width: 100%;
 
     background-color: #3350e9;
 }
@@ -193,10 +177,8 @@
 /*Tablet devices */
 @media screen and (min-width: 768px) {
     .sale-section__watch-description {
-        padding: 60;
+        padding: 60px;
         border-radius: 50px;
-        width: 704px;
-        height: 518px;
     }
 
     .watch-description__watch-name {
@@ -227,8 +209,7 @@
 /*  Desktop devices */
 @media screen and (min-width: 1280px) {
     .sale-section__watch-description {
-        width: 530px;
-        height: 558px;
+        max-width: 530px;
     }
 
     .watch-description__watch-name {
