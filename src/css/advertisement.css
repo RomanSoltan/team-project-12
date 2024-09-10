@@ -1,5 +1,5 @@
 .advertisement-section {
-  margin: 30px 0;
+  padding: 30px 0;
 }
 
 .advertisement-inner {
@@ -62,7 +62,7 @@
 
 @media screen and (min-width: 768px) {
   .advertisement-section {
-    margin: 40px 0;
+    padding: 40px 0;
   }
 
   .advertisement-inner {
@@ -93,7 +93,7 @@
 
 @media screen and (min-width: 1280px) {
   .advertisement-section {
-    margin: 50px 0;
+    padding: 50px 0;
   }
 
   .advertisement-inner {
