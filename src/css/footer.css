@@ -1,9 +1,13 @@
 .footer {
-    border-radius: 30px;
+    padding: 0 20px;
+}
+
+.footer-container {
     padding: 40px 28px 28px;
-    margin: 0 auto 15px;
     max-width: 335px;
     background-color: #0c0c0c;
+    border-radius: 30px;
+    margin: 0 auto 15px;
 }
 
 .logo-footer {
@@ -37,7 +41,8 @@
     transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-footer-link:focus, .social-footer-link:hover {
+.social-footer-link:focus,
+.social-footer-link:hover {
     border: 1px solid rgba(251, 251, 251, 0.5);
 }
 
@@ -144,9 +149,13 @@
 
 @media screen and (min-width: 768px) {
     .footer {
+        padding: 0;
+        margin-bottom: 32px;
+    }
+    
+    .footer-container {
         padding: 40px 40px 28px;
         max-width: 704px;
-        margin-bottom: 32px;
     }
 
     .footer-info-cont {
@@ -231,7 +240,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .footer {
+    .footer-container {
         padding: 40px 40px 28px;
         max-width: 1216px;
     }
