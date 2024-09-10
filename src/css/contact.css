@@ -90,9 +90,6 @@ textarea::placeholder {
   .contact-section {
     padding-bottom: 80px;
   }
-  .container {
-    max-width: 768px;
-  }
   .contact-title {
     font-size: 48px;
     line-height: 0.9;
@@ -142,10 +139,6 @@ textarea::placeholder {
 @media screen and (min-width: 1280px) {
   .contact-section {
     padding-bottom: 100px;
-  }
-  .container {
-    max-width: 1280px;
-    margin: 0;
   }
   .contact-title {
     font-size: 48px;
