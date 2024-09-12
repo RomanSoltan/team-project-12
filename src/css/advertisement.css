@@ -1,7 +1,3 @@
-.advertisement-section {
-  padding: 30px 0;
-}
-
 .advertisement-inner {
   border-radius: 30px;
   padding: 60px 28px;
@@ -61,10 +57,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .advertisement-section {
-    padding: 40px 0;
-  }
-
   .advertisement-inner {
     padding: 80px 64px;
     background-image: url(../img/advertisement/tab/advert-tab-image-bg-@1x.png),
@@ -92,10 +84,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .advertisement-section {
-    padding: 50px 0;
-  }
-
   .advertisement-inner {
     padding: 83px 80px;
     background-image: url(../img/advertisement/desk/advert-desk-image-bg-@1x.png),
