@@ -1,5 +1,6 @@
 /* #region Header  */
 /* Styles for Mobile devices */
+
 .header {
   border-bottom: 1px solid rgba(12, 12, 12, 0.1);
   /* box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -52,11 +53,13 @@
   .burger-btn {
     display: none;
   }
+  /* .container.header-container {
+    margin: 0 auto;
+  } */
   .header-nav,
   .social-header {
     display: flex;
   }
-
   .nav-list {
     display: flex;
     gap: 40px;
@@ -72,7 +75,6 @@
     line-height: 1.29;
     text-align: center;
     color: #0c0c0c;
-    /* padding: 30px 0; */
     display: block;
   }
   .nav-item-link {
@@ -102,7 +104,9 @@
     justify-content: center;
   }
   .social-header-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 1px solid rgba(12, 12, 12, 0.1);
     border-radius: 10px;
     padding: 8px;
