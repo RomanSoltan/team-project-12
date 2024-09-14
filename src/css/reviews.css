@@ -1,73 +1,88 @@
 .reviews-list {
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .reviews-list {
-    gap: 16px;
+    /* gap: 16px; */
+    margin-bottom: 32px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .reviews-list {
     gap: 20px;
   }
-}
+} */
 
 .reviews-item {
   border-radius: 30px;
   padding: 32px 36px;
-  display: flex;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
   background-color: #f3f3f3;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .reviews-item {
     width: calc((100% - 16px) / 2);
   }
-}
+} */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .reviews-item {
     width: calc((100% - 40px) / 3);
   }
-}
+} */
 
 .reviews-img {
+  margin: 0 auto;
   border-radius: 100%;
   border-color: transparent;
   border: 2px solid transparent;
   margin-bottom: 24px;
 }
 
-.reviews-item-tab {
+/* .reviews-item-tab {
   display: none;
-}
+} */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .reviews-item-tab {
     display: flex;
   }
-}
+} */
 
-.reviews-item-desk {
+/* .reviews-item-desk {
   display: none;
-}
+} */
 
-@media screen and (min-width: 1280px) {
+/* @media screen and (min-width: 1280px) {
   .reviews-item-desk {
     display: flex;
   }
-}
+} */
 
 .reviews-con {
   display: flex;
   flex-direction: column;
   max-width: 263px;
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-con {
+    max-width: 272px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .reviews-con {
+    max-width: 298px;
+  }
 }
 
 .reviews-name {
@@ -96,4 +111,30 @@
   letter-spacing: -0.02em;
   text-align: center;
   color: rgba(12, 12, 12, 0.4);
+}
+
+@media screen and (min-width: 768px) {
+  .reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.pagination-btn {
+  width: 12px;
+  height: 12px;
+  padding: 0;
+  background-color: #f3f3f3;
+  border-radius: 50%;
+}
+
+.pagination-btn--active {
+  background-color: #3350e9;
 }
