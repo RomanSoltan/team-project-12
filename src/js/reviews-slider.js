@@ -1,6 +1,5 @@
 const swiper = new Swiper('.swiper', {
   loop: true,
-  // grabCursor: true,
   slidesPerView: 1,
   spaceBetween: 20,
   breakpoints: {
@@ -27,11 +26,6 @@ const swiper = new Swiper('.swiper', {
   keyboard: {
     enabled: true,
     onlyInViewport: true,
-  },
-
-  // Navigation mousewheel
-  mousewheel: {
-    invert: true,
   },
 
   autoplay: {
